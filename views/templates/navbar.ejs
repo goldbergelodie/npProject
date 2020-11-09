@@ -1,14 +1,26 @@
- <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <!-- site-navbar start -->
+ <div class="navbar-area">
+    <div class="container">
+      <nav class="site-navbar">
+        <!-- site logo -->
+        <a href="#home" class="site-logo">LATE NIGHT</a>
 
-    <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">Home</a>
-        <a href="#">Stories</a>
-        <a href="#">About</a>
-        <a href="#">Log In</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-    </div> 
+        <!-- site menu/nav -->
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">stories</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="login.ejs">log in</a></li>
+        </ul>
+
+        <!-- nav-toggler for mobile version only -->
+        <button class="nav-toggler">
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </div><!-- navbar-area end -->
+
+
 
  
